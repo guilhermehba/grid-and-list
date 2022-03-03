@@ -12,7 +12,7 @@
 .col-10 {width: 83%;}
 .col-11 {width: 92%;}
 .col-12 {width: 100%;}
-@media (max-width: 250px) {
+@media (max-width: 360px) {
   /* For mobile phones: */
   .col-3 {
     width: 100%;
