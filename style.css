@@ -20,6 +20,12 @@
   .grid, .list{
     display: none;
   }
+  img {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% solid;
+  }
 }
 @media only screen and (max-width: 760px) {
   /* For mobile phones: */
@@ -108,7 +114,7 @@
     object-fit: cover;
     width: 80px;
     height: 80px;
-    border-radius: 50%;
+    border-radius: 50% solid;
     z-index: 0;
   }
   #file{
