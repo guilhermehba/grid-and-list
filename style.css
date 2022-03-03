@@ -21,6 +21,15 @@
     display: none;
   }
 }
+@media only screen and (max-width: 560px) {
+  /* For mobile phones: */
+  .col-3 {
+    width: 100%;
+  }
+  .grid, .list{
+    display: none;
+  }
+}
 
 
 * {
