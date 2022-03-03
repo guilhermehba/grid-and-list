@@ -2,7 +2,7 @@
 /* For desktop: */
 .col-1 {width: 8%;}
 .col-2 {width: 16%;}
-.col-3 {width: 20%;}
+.col-3 {width: 23%; box-sizing: border-box;}
 .col-4 {width: 30%;}
 .col-5 {width: 40%;}
 .col-6 {width: 50%;}
@@ -15,7 +15,19 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .col-3 {
+    width: 60%;
+  }
+  .grid, .list{
+    display: none;
+  }
+}
+@media only screen and (max-width: 668px) {
+  /* For mobile phones: */
+  .col-3 {
     width: 100%;
+  }
+  .grid, .list{
+    display: none;
   }
 }
 * {
@@ -35,8 +47,14 @@
     text-align: left;
   }
   /* Create two equal columns that floats next to each other */
+  .row{
+    text-align: center;
+    margin:0 auto;
+  }
   .column {
-    float: left;
+    display:inline-block;
+    vertical-align: middle;
+    float: none;
     text-align: center;
     background: #FEFEFE;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
@@ -67,4 +85,52 @@
   .btn.active {
     background-color: #666;
     color: white;
+  }
+  .material-icons-outlined{
+    font-family: Material Icons;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #AB58B9;
+  }
+  .material-icons{
+    color: #AB58B9;
+    border-radius: 10px;
+    border: 2px solid #AB58B9;
+    background-color: aqua;
+    
+  }
+  img {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+  
+    z-index: 0;
+  }
+  #file{
+    display: none;
+  }
+  
+
+  /*identificações de campos individualmente*/
+
+  #nome{
+    font-weight: bold;
+  }
+  #mae{
+    font-weight: bold;
+    text-align: left;
+  }
+  #pai{
+    font-weight: bold;
+    text-align: left;
+  }
+  #responsavel{
+    font-weight: bold;
+    text-align: left;
+  }
+  #tel{
+    font-weight: bold;
+    text-align: left;
   }
