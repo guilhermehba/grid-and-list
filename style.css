@@ -21,6 +21,15 @@
     display: none;
   }
 }
+@media (max-width: 600px)
+{
+  .col-3 {
+    width: 75%;
+  }
+  .grid, .list{
+    display: none;
+  }
+}
 * {
     box-sizing: border-box;
     margin: 10px 10px 10px 10px;
