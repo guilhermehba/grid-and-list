@@ -2,7 +2,7 @@
 /* For desktop: */
 .col-1 {width: 8%;}
 .col-2 {width: 16%;}
-.col-3 {width: 23%; box-sizing: border-box;}
+.col-3 {width: 23%;}
 .col-4 {width: 30%;}
 .col-5 {width: 40%;}
 .col-6 {width: 50%;}
@@ -15,16 +15,7 @@
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .col-3 {
-    width: 60%;
-  }
-  .grid, .list{
-    display: none;
-  }
-}
-@media only screen and (max-width: 668px) {
-  /* For mobile phones: */
-  .col-3 {
-    width: 100%;
+    width: 75%;
   }
   .grid, .list{
     display: none;

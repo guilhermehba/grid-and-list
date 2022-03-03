@@ -7,7 +7,7 @@ var i;
 // List View
 function listView() {
   for (i = 0; i < elements.length; i++) {
-    elements[i].style.width = "65%";
+    elements[i].style.width = "75%";
   }
 }
 
