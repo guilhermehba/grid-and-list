@@ -2,7 +2,7 @@
 /* For desktop: */
 .col-1 {width: 8%;}
 .col-2 {width: 16%;}
-.col-3 {width: 23%;}
+.col-3 {width: 336px;}
 .col-4 {width: 30%;}
 .col-5 {width: 40%;}
 .col-6 {width: 50%;}
@@ -12,20 +12,18 @@
 .col-10 {width: 83%;}
 .col-11 {width: 92%;}
 .col-12 {width: 100%;}
-@media (max-width: 360px) {
-  /* For mobile phones: */
-  .col-3 {
-    width: 100%;
-  }
-  .grid, .list{
-    display: none;
-  }
-  img {
-    object-fit: cover;
-    width: 80px;
-    height: 80px;
-    border-radius: 50% solid;
-  }
+.grid, .list{
+  display: none;
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .grid, .list{
+      display: none;
+    }
+
 }
 @media only screen and (max-width: 760px) {
   /* For mobile phones: */
