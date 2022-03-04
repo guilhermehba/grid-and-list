@@ -12,6 +12,7 @@
 .col-10 {width: 83%;}
 .col-11 {width: 92%;}
 .col-12 {width: 100%;}
+
 .grid, .list{
   display: none;
 }
@@ -23,20 +24,7 @@
     .grid, .list{
       display: none;
     }
-
 }
-@media only screen and (max-width: 760px) {
-  /* For mobile phones: */
-  .col-3 {
-    width: 100%;
-  }
-  .grid, .list{
-    display: none;
-  }
-}
-
-
-
 * {
     box-sizing: border-box;
     margin: 10px 10px 10px 10px;
