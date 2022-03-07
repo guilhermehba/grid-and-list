@@ -8,7 +8,7 @@ font-size: 16px;
 line-height: 24px;
 }
 .col-3{
-  width: 326px;
+  width: 356px;
 }
 
 .card-header{
@@ -186,7 +186,7 @@ width: 50%;
   border: 1px solid #6F31AD;
   box-sizing: border-box;
   border-radius: 8px;
-  width: 228px;
+  width: 172px;
   height: 48px;
   color: #AB58B9;
   
@@ -197,7 +197,7 @@ background: #FFFDFD;
 border: 1px solid #6F31AD;
 box-sizing: border-box;
 border-radius: 8px;
-width: 228px;
+width: 172px;
 color: #6F31AD;
 
 }
@@ -211,22 +211,17 @@ width: 25%;
 
 /**/
 #filter_buttom{
-      border-radius: 24px;
-      background-color: #AB58B9;
-      font-family: Poppins, Material icons;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      width: 136px;
-      height: 48px;
-      text-align: justify;
-      margin: 5px 5px 5px 5px;
+  background: #AB58B9;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
       
 }
 #icon_fil{
   padding-top: 5px;
   width: 30%;
   float: left;
+  color: #FFFFFF;
 }
 #filter_text{
   text-decoration: none;
@@ -238,7 +233,7 @@ width: 25%;
 #back_class_bar{
   background: #D6E3EA;
   border-radius: 2px 2px 0px 0px;
-  height: 40px;
+  height: 58px;
   left: 86px;
   margin: auto auto;
   padding-top: 7px;
